@@ -49,7 +49,7 @@ h2 {
     margin: 0;
     margin-bottom: var(--spacing-2);
   }
-  button {
+button {
     background-color: #7805fc;
     border: none;
     color: white;
@@ -60,6 +60,19 @@ h2 {
     margin: 4px 2px;
     cursor: pointer;
     float: right;
+  }
+  .project-image {
+    width: 50%;
+  }
+.project-title h3 {
+    display: inline;
+  }
+details {
+    cursor: pointer;
+  }
+  
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
   }
 .navigation-items {
     display: flex;
